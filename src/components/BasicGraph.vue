@@ -12,7 +12,7 @@
 	export default {
 		name: "BasicGraph",
 		mounted() {
-			const jsonData = require("../../../data/result2.json");
+			const jsonData = require("../../data/result2.json");
 			const graph = ForceGraph3D({ controlType: "orbit" })(document.getElementById("3d-graph"));
 
 			let temp = {
